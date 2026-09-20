@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "name": "maharashtra_coastal_landing_centres",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mirkarwada_ratnagiri",
+        "name": "Mirkarwada Major Fishing Harbour",
+        "location_name": "Ratnagiri",
+        "district": "Ratnagiri",
+        "state": "Maharashtra",
+        "category": "Major Harbour",
+        "berths": 450,
+        "active_vessels": 650,
+        "contact": "Ratnagiri Fisheries Dept / MMB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.2842, 17.0019]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mirya_bandar",
+        "name": "Mirya Bandar (Bhagwati Port)",
+        "location_name": "Ratnagiri",
+        "district": "Ratnagiri",
+        "state": "Maharashtra",
+        "category": "All-Weather Landing Centre",
+        "berths": 180,
+        "active_vessels": 240,
+        "contact": "Mirya Fishermen Cooperative"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.2755, 17.0251]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bhatye_landing",
+        "name": "Bhatye Estuary Landing Centre",
+        "location_name": "Ratnagiri",
+        "district": "Ratnagiri",
+        "state": "Maharashtra",
+        "category": "Artisanal Landing Centre",
+        "berths": 80,
+        "active_vessels": 120,
+        "contact": "Bhatye Artisanal Union"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.2951, 16.9754]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jaigad_port",
+        "name": "Jaigad Fishing Jetty",
+        "location_name": "Jaigad",
+        "district": "Ratnagiri",
+        "state": "Maharashtra",
+        "category": "Minor Harbour",
+        "berths": 120,
+        "active_vessels": 160,
+        "contact": "Jaigad Port Authority"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.2184, 17.3052]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "devgad_harbour",
+        "name": "Devgad Harbour",
+        "location_name": "Devgad",
+        "district": "Sindhudurg",
+        "state": "Maharashtra",
+        "category": "Medium Harbour",
+        "berths": 220,
+        "active_vessels": 310,
+        "contact": "Devgad Fisheries Office"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.3752, 16.3751]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "malvan_bandar",
+        "name": "Malvan Dandi Bandar",
+        "location_name": "Malvan",
+        "district": "Sindhudurg",
+        "state": "Maharashtra",
+        "category": "Traditional Landing Centre",
+        "berths": 150,
+        "active_vessels": 200,
+        "contact": "Malvan Fishermen Society"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.4651, 16.0624]
+      }
+    }
+  ]
+}

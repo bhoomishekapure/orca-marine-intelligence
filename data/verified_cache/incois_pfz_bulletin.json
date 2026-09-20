@@ -1,0 +1,51 @@
+{
+  "bulletin_id": "INCOIS-PFZ-MH-20260920-01",
+  "source": "INCOIS Marine Fisheries Advisory Division, Hyderabad",
+  "generated_at": "2026-09-20T04:30:00Z",
+  "valid_from": "2026-09-20T06:00:00Z",
+  "valid_to": "2026-09-23T18:00:00Z",
+  "coastal_state": "Maharashtra",
+  "sector": "Konkan South (Ratnagiri & Sindhudurg)",
+  "advisories": [
+    {
+      "zone_id": "PFZ-MH-RTG-01",
+      "landing_centre": "Mirya Bandar, Ratnagiri",
+      "landing_latitude": 17.0251,
+      "landing_longitude": 73.2755,
+      "bearing_deg": 240,
+      "direction": "WSW",
+      "distance_km": 22.5,
+      "distance_nm": 12.15,
+      "depth_range_m": [35, 50],
+      "sst_celsius": 28.4,
+      "chlorophyll_mg_m3": 0.85,
+      "target_species": "Mackerel, Sardine, Ribbonfish",
+      "centroid_lat": 16.895,
+      "centroid_lon": 73.072,
+      "oceanographic_front": "Strong thermal front (0.6°C gradient) coinciding with elevated chlorophyll band",
+      "bulletin_text_en": "PFZ observed at 22.5 km WSW of Mirya Bandar, Ratnagiri. Depth range 35-50 meters. Thermal front SST 28.4°C with chlorophyll 0.85 mg/m3 indicates good pelagic aggregation.",
+      "bulletin_text_mr": "मिऱ्या बंदर, रत्नागिरी येथून २२.५ किमी प-द-प (WSW) दिशेला २४०° वर मासेमारी क्षेत्र (PFZ) आढळले आहे. पाण्याची खोली ३५ ते ५० मीटर. सागरी तापमान २८.४ अंश से. आणि हरितद्रव्य ०.८५ मि.ग्रॅ./घनमीटर असून बांगडा व तारली मासळी मिळण्याची उत्तम शक्यता आहे.",
+      "bulletin_text_hi": "मिर्या बंदर, रत्नागिरी से 22.5 किमी पश्चिम-दक्षिण-पश्चिम (WSW) दिशा में 240 डिग्री पर संभावित मत्स्य पालन क्षेत्र (PFZ) पाया गया है। पानी की गहराई 35-50 मीटर है।"
+    },
+    {
+      "zone_id": "PFZ-MH-RTG-02",
+      "landing_centre": "Bhatye Landing, Ratnagiri",
+      "landing_latitude": 16.9754,
+      "landing_longitude": 73.2951,
+      "bearing_deg": 210,
+      "direction": "SSW",
+      "distance_km": 31.0,
+      "distance_nm": 16.74,
+      "depth_range_m": [45, 65],
+      "sst_celsius": 28.1,
+      "chlorophyll_mg_m3": 0.92,
+      "target_species": "Tuna, Seerfish, Carangids",
+      "centroid_lat": 16.700,
+      "centroid_lon": 73.115,
+      "oceanographic_front": "Shelf-break oceanic front with upwelling signature",
+      "bulletin_text_en": "PFZ observed at 31 km SSW of Bhatye Landing. Depth 45-65m. Excellent conditions for pelagic shoals.",
+      "bulletin_text_mr": "भाट्ये किनाऱ्यापासून ३१ किमी द-द-प (SSW) दिशेला ४५-६५ मीटर खोलीवर सुरमई व कुपा माशांचे मोठे थवे आढळण्याची शक्यता आहे.",
+      "bulletin_text_hi": "भाट्ये तट से 31 किमी दक्षिण-दक्षिण-पश्चिम में संभावित मछली क्षेत्र।"
+    }
+  ]
+}

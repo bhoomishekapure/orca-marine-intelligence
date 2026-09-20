@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "name": "incois_potential_fishing_zones_maharashtra",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PFZ-MH-RTG-01",
+        "name": "Ratnagiri West-South-West PFZ Zone",
+        "reference_centre": "Mirya Bandar, Ratnagiri",
+        "bearing_deg": 240,
+        "direction": "WSW",
+        "distance_km": 22.5,
+        "distance_nm": 12.15,
+        "depth_range_m": "35-50 m",
+        "sst_celsius": 28.4,
+        "chlorophyll_mg_m3": 0.85,
+        "pelagic_density": "High",
+        "target_species": "Indian Mackerel (Rastrelliger kanagurta), Oil Sardine, Ribbonfish",
+        "source": "INCOIS PFZ Multi-lingual Advisory",
+        "valid_from": "2026-09-20T06:00:00Z",
+        "valid_to": "2026-09-23T18:00:00Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.050, 16.940],
+            [73.120, 16.920],
+            [73.100, 16.850],
+            [73.020, 16.870],
+            [73.050, 16.940]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PFZ-MH-RTG-02",
+        "name": "Ratnagiri South-South-West Deep Zone",
+        "reference_centre": "Bhatye Landing, Ratnagiri",
+        "bearing_deg": 210,
+        "direction": "SSW",
+        "distance_km": 31.0,
+        "distance_nm": 16.74,
+        "depth_range_m": "45-65 m",
+        "sst_celsius": 28.1,
+        "chlorophyll_mg_m3": 0.92,
+        "pelagic_density": "High",
+        "target_species": "Skipjack Tuna, Seerfish, King Mackerel, Carangids",
+        "source": "INCOIS PFZ Multi-lingual Advisory",
+        "valid_from": "2026-09-20T06:00:00Z",
+        "valid_to": "2026-09-23T18:00:00Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.080, 16.750],
+            [73.160, 16.730],
+            [73.140, 16.650],
+            [73.060, 16.670],
+            [73.080, 16.750]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PFZ-MH-JGD-01",
+        "name": "Jaigad Offshore Western PFZ Zone",
+        "reference_centre": "Jaigad Fishing Jetty",
+        "bearing_deg": 265,
+        "direction": "W",
+        "distance_km": 19.8,
+        "distance_nm": 10.69,
+        "depth_range_m": "30-45 m",
+        "sst_celsius": 28.5,
+        "chlorophyll_mg_m3": 0.78,
+        "pelagic_density": "Moderate to High",
+        "target_species": "Silver Pomfret, Anchovy, Croaker",
+        "source": "INCOIS PFZ Multi-lingual Advisory",
+        "valid_from": "2026-09-20T06:00:00Z",
+        "valid_to": "2026-09-23T18:00:00Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.000, 17.330],
+            [73.060, 17.320],
+            [73.050, 17.260],
+            [72.990, 17.270],
+            [73.000, 17.330]
+          ]
+        ]
+      }
+    }
+  ]
+}

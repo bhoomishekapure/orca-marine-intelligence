@@ -1,0 +1,22 @@
+{
+  "bulletin_type": "Daily Marine Coastal Weather & Fishermen Warning Bulletin",
+  "issuing_office": "Area Cyclone Warning Centre (ACWC), Mumbai / IMD",
+  "issued_at": "2026-09-20T06:00:00Z",
+  "valid_until": "2026-09-22T06:00:00Z",
+  "coastal_division": "Maharashtra - Goa Coast (North Maharashtra: Palghar, Thane, Mumbai, Raigad; South Maharashtra: Ratnagiri, Sindhudurg)",
+  "overall_warning_color": "GREEN",
+  "warning_headline": "No adverse fishermen warning for Maharashtra coast during next 48 hours",
+  "wind_forecast": {
+    "direction": "Westerly to South-Westerly",
+    "speed_knots_range": [12, 16],
+    "speed_kmh_range": [22, 30],
+    "gusting_to_knots": 22
+  },
+  "sea_condition": "Slight to Moderate",
+  "weather_description": "Mainly clear to partly cloudy sky with light rain/showers at isolated places over South Konkan coast.",
+  "fishermen_warning_text_en": "Fishermen are advised that sea conditions will be slight to moderate. Safe for normal fishing operations. Keep standard radio VHF channel 16 watch.",
+  "fishermen_warning_text_mr": "महाराष्ट्र आणि दक्षिण कोकण किनारपट्टीवर पुढील ४८ तासांत मासेमारीसाठी कोणताही इशारा नाही. समुद्र शांत ते मध्यम राहील. नेहमीची मासेमारी सुरक्षित आहे.",
+  "fishermen_warning_text_hi": "महाराष्ट्र तट पर मछुआरों के लिए कोई चेतावनी नहीं है। समुद्र सामान्य रहेगा और मछली पकड़ना सुरक्षित है।",
+  "active_cyclone": null,
+  "squally_weather_alert": false
+}

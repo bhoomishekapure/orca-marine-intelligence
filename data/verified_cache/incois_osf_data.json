@@ -1,0 +1,68 @@
+{
+  "product": "Ocean State Forecast (OSF)",
+  "agency": "INCOIS (Indian National Centre for Ocean Information Services)",
+  "region": "Maharashtra Coastal Waters (Ratnagiri Sector)",
+  "grid_point": {
+    "latitude": 16.99,
+    "longitude": 73.30
+  },
+  "issued_at": "2026-09-20T03:00:00Z",
+  "forecast_series": [
+    {
+      "datetime": "2026-09-20T06:00:00Z",
+      "hour": 6,
+      "significant_wave_height_m": 1.4,
+      "maximum_wave_height_m": 2.2,
+      "wave_period_s": 8.1,
+      "wave_direction_deg": 255,
+      "swell_wave_height_m": 1.1,
+      "swell_period_s": 10.2,
+      "surface_current_speed_knots": 0.8,
+      "surface_current_direction_deg": 340,
+      "sea_surface_temperature_c": 28.5,
+      "ocean_state_alert": "NORMAL"
+    },
+    {
+      "datetime": "2026-09-20T09:00:00Z",
+      "hour": 9,
+      "significant_wave_height_m": 1.5,
+      "maximum_wave_height_m": 2.4,
+      "wave_period_s": 8.0,
+      "wave_direction_deg": 260,
+      "swell_wave_height_m": 1.2,
+      "swell_period_s": 10.0,
+      "surface_current_speed_knots": 0.9,
+      "surface_current_direction_deg": 335,
+      "sea_surface_temperature_c": 28.8,
+      "ocean_state_alert": "NORMAL"
+    },
+    {
+      "datetime": "2026-09-21T06:00:00Z",
+      "hour": 6,
+      "significant_wave_height_m": 1.4,
+      "maximum_wave_height_m": 2.1,
+      "wave_period_s": 8.2,
+      "wave_direction_deg": 250,
+      "swell_wave_height_m": 1.1,
+      "swell_period_s": 10.4,
+      "surface_current_speed_knots": 0.7,
+      "surface_current_direction_deg": 345,
+      "sea_surface_temperature_c": 28.4,
+      "ocean_state_alert": "NORMAL"
+    },
+    {
+      "datetime": "2026-09-21T09:00:00Z",
+      "hour": 9,
+      "significant_wave_height_m": 1.6,
+      "maximum_wave_height_m": 2.5,
+      "wave_period_s": 7.8,
+      "wave_direction_deg": 265,
+      "swell_wave_height_m": 1.2,
+      "swell_period_s": 9.8,
+      "surface_current_speed_knots": 1.0,
+      "surface_current_direction_deg": 330,
+      "sea_surface_temperature_c": 28.7,
+      "ocean_state_alert": "NORMAL"
+    }
+  ]
+}

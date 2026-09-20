@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: orca-postgis
+    environment:
+      POSTGRES_DB: orca_marine
+      POSTGRES_USER: orca_user
+      POSTGRES_PASSWORD: orca_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - orca_pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U orca_user -d orca_marine"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: orca-backend
+    environment:
+      DATABASE_URL: postgresql+asyncpg://orca_user:orca_password@db:5432/orca_marine
+      DEMO_MODE: "False"
+      LLM_PROVIDER: "mock"
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  orca_pgdata:

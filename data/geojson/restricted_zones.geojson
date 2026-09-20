@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "name": "marine_restricted_zones_maharashtra",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MPA-MH-MALVAN-01",
+        "name": "Malvan Marine Sanctuary",
+        "category": "Marine Protected Area (MPA)",
+        "restriction_level": "STRICT_NO_FISHING",
+        "legal_basis": "Wildlife Protection Act, 1972",
+        "district": "Sindhudurg",
+        "description": "Core marine sanctuary protecting coral reefs, mangrove estuaries, and sea turtles. All mechanized and commercial fishing strictly prohibited. Violation leads to vessel impoundment.",
+        "authority": "Maharashtra Forest Department (Wildlife Wing) & Coast Guard"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.440, 16.120],
+            [73.530, 16.120],
+            [73.530, 16.030],
+            [73.440, 16.030],
+            [73.440, 16.120]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "NAV-MH-JAIGAD-01",
+        "name": "Jaigad Commercial Port Navigational Fairway",
+        "category": "Commercial Shipping Corridor",
+        "restriction_level": "NO_NETS_ACTIVE_TRAFFIC",
+        "legal_basis": "Indian Ports Act & MMB Regulations",
+        "district": "Ratnagiri",
+        "description": "Deep-water approach channel for LNG tankers and bulk cargo carriers. Laying gillnets, purse-seines, or anchoring inside fairway is hazardous and prohibited.",
+        "authority": "Maharashtra Maritime Board & Jaigad Port Control"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.120, 17.320],
+            [73.230, 17.315],
+            [73.230, 17.290],
+            [73.120, 17.295],
+            [73.120, 17.320]
+          ]
+        ]
+      }
+    }
+  ]
+}
