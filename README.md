@@ -160,11 +160,3 @@ All 20 tests verify data adapters, agents, geospatial calculations, risk engine 
 
 ---
 
-## 6. SIH 6-Slide Presentation Guide
-
-- **Slide 1: ORCA Identity**: Problem statement, vision, and team overview.
-- **Slide 2: The Maritime Challenge**: Fragmented ocean bulletins vs. unified conversational agent solution.
-- **Slide 3: Collaborative Agent Architecture**: Orchestrator DAG, specialized agents, and separation of LLM from deterministic GIS.
-- **Slide 4: Feasibility & Resilience**: Live API integration paired with verified cache failover; zero-hallucination compliance.
-- **Slide 5: Interactive Decision Interface**: Screenshot of MapLibre GL map, Risk Assessment card, and Evidence Provenance table.
-- **Slide 6: Impact, Multilingual Reach & Future Scope**: Artisanal fishing safety, Marathi/Hindi localization, and nationwide expansion roadmap.
