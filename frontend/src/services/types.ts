@@ -54,14 +54,19 @@ export interface AgentTimelineItem {
 }
 
 export interface QueryResponse {
-  session_id: string;
   query: string;
-  query_language: string;
+  location: string;
+  time: string;
   intent: string;
+  risk: string;
   answer: string;
+  evidence: EvidenceRecord[];
+  sources: string[];
+  agents_used: string[];
+  session_id: string;
+  query_language: string;
   risk_assessment: RiskAssessment;
   agent_timeline: AgentTimelineItem[];
-  evidence: EvidenceRecord[];
   map_features: any;
   is_demo_mode: boolean;
   execution_time_ms: number;

@@ -56,6 +56,16 @@ async def test_marine_conditions_endpoint():
     assert data["ocean"]["significant_wave_height_m"] > 0
 
 @pytest.mark.asyncio
+async def test_root_health():
+    transport = ASGITransport(app=app)
+    async with AsyncClient(transport=transport, base_url="http://test") as ac:
+        res = await ac.get("/health")
+    assert res.status_code == 200
+    data = res.json()
+    assert data["status"] == "healthy"
+    assert len(data["providers"]) >= 4
+
+@pytest.mark.asyncio
 async def test_api_query_post():
     transport = ASGITransport(app=app)
     async with AsyncClient(transport=transport, base_url="http://test") as ac:
@@ -66,7 +76,17 @@ async def test_api_query_post():
         res = await ac.post("/api/query", json=payload)
     assert res.status_code == 200
     data = res.json()
+    
+    # Required core response fields per SIH specification
+    assert data["query"] == "Is it safe to go fishing tomorrow at 6 AM near Ratnagiri?"
+    assert "Ratnagiri" in data["location"]
+    assert data["time"] == "06:00"
     assert data["intent"] == "MARINE_SAFETY"
-    assert data["risk_assessment"]["risk_level"] in ["SAFE", "CAUTION", "UNSAFE"]
+    assert data["risk"] in ["LOW", "MODERATE", "HIGH", "UNKNOWN"]
+    assert len(data["answer"]) > 0
+    assert isinstance(data["evidence"], list)
     assert len(data["evidence"]) > 0
-    assert len(data["agent_timeline"]) >= 4
+    assert isinstance(data["sources"], list)
+    assert len(data["sources"]) > 0
+    assert isinstance(data["agents_used"], list)
+    assert len(data["agents_used"]) >= 4

@@ -56,6 +56,19 @@ app.include_router(locations_router)
 app.include_router(health_router)
 app.include_router(conditions_router)
 
+@app.get("/health", tags=["Health & Status"])
+async def root_health():
+    """Root health check endpoint."""
+    from backend.adapters.registry import registry
+    return {
+        "status": "healthy",
+        "app_name": settings.APP_NAME,
+        "environment": settings.APP_ENV,
+        "demo_mode": settings.DEMO_MODE,
+        "llm_provider": settings.LLM_PROVIDER,
+        "providers": registry.get_providers_status()
+    }
+
 # Mount Built React Frontend if dist exists
 dist_dir = Path(__file__).resolve().parent.parent / "frontend" / "dist"
 if dist_dir.exists():
